@@ -1,0 +1,45 @@
+.view-all{
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    height: 50%;
+    width: 50%;
+    display: block;
+    padding: 1em;
+    margin: 2em;
+    border-radius: 1.3rem;
+}
+
+.main-font{
+    font-family: 'Lobster', cursive;
+    font-size: 2.7rem;
+    color: #58A4B0;
+}
+
+.sub-font{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.3rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* normal text font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap');
+
+.nav-bg-color{
+    background-color: #0B0033;
+}
+
+.nav-brand{
+  /*  color: #70EBCA !important;  */
+     color: #5EFC8D !important;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+
+.nav-text-color{
+    /*color: #70EBCA !important; */
+    color: #5EFC8D !important;
+}
+
+.footer-background{
+    background-color: #1B1B1E;
+}

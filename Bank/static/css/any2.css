@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* normal text font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap');
+
+.nav-bg-color{
+    background-color: #0B0033;
+}
+
+.nav-brand{
+  /*  color: #70EBCA !important;  */
+     color: #5EFC8D !important;
+    font-family: 'Lobster', cursive;
+    font-size: 2rem;
+}
+
+.nav-text-color
+    /*color: #70EBCA !important; */
+    color: #5EFC8D !important;
+}
+
+.banner{
+    min-height: calc(100vh - 100px);
+    background: linear-gradient(rgba(5, 4, 1, 0.5),
+    rgba(0, 0, 0, 0.7)),url("{% static 'images/banner.jpg' %}");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    font-family: 'Lobster', cursive;
+}
+
+
+.banner-title{
+    color: aqua;
+    font-size: 4.5rem;
+}
+
+.banner-margin{
+    margin-left: -250px;
+}
+
+.banner-text-color{
+    color:#5EFC8D;
+}
+
+.banner-grips{
+    margin-left: -100px;
+}
+.margin{
+    margin: 300px;
+}
+
+.main-font{
+    font-family: 'Lobster', cursive;
+    font-size: 2.7rem;
+    color: #58A4B0;
+}
+
+.sub-font{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.3rem;
+}
+
+
+.about-img{
+    position: relative;
+}
+.about-img::before{
+    content:'';
+    position: absolute;
+    top: -1.2rem;
+    left: -1.2rem;
+    z-index: -1;
+    outline: 8px solid rgb(197, 168, 51);
+    width: 100%;
+    height: 100%;
+    transition: all 1s linear;
+
+}
+
+.about-img:hover:before{
+    top: 0;
+    left: 0;
+}
+
+/* view background */
+.view-background{
+    background-color: #F2F4F8;
+}
+/* footer */
+.footer-background{
+    background-color: #1B1B1E;
+}
+*{
+    overflow-x: hidden;
+}
+
+
+
